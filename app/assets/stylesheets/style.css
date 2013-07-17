@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+
+nav {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  font-family: 'Julius Sans One', sans-serif;
+  background-color: #f2f2f2;
+  border-bottom: 1.2px solid #ccc;
+  padding: 40px;
+}
+
+nav ul li {
+  float: left;
+  display: block;
+  color: #069;
+  border-right: 1px #ccc;
+  padding-right: 70px;
+  padding-left: 80px;
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 18px
+}
+
+.left img {
+  float: left;
+  width: 55%;
+}
+
+.center img {
+  display: block;
+  width: 14%;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.center p {
+  font-size: 22px;
+  font-family: serif;
+}
+
+.right p {
+  font-size: 60px;
+  font-family: 'Julius Sans One', sans-serif;
+  line-height: 0.5;
+  float: right;
+  margin-top: 90px;
+  margin-right: 5px;
+}
+
+.bottom p {
+  font-size: 32px;
+  font-family: serif;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  width: 40%
+}
+
+.sign-in-container {
+  width: 400px;
+  height: 100px;
+  background-color: #00B454;
+
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.sign-in-header {
+  font-family: Verdana;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+input {
+  width: 200px;
+  height: 29px;
+  border-radius: 3px;
+  border: 1px solid #CCC;
+  padding: 8px;
+  font-weight: 200;
+  font-size: 15px;
+  font-family: Verdana;
+  box-shadow: 1px 1px 5px #CCC;
+}
+
+button {
+  width: 80px;
+  height: 34px;
+  border: 2px solid white;
+  background-color:#CCC;
+}
+
+button :hover {
+  width: 150px;
+  height: 34px;
+  border: 2px solid white;
+  background-color:#000000;
+  color:#fff;
+}
+
+.welcome-banner {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  padding: 90px
+}
+
+.link {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.class-button {
+  -moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+  box-shadow:inset 0px 0px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+  background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+  background-color:#ededed;
+  -moz-border-radius:19px;
+  -webkit-border-radius:19px;
+  border-radius:19px;
+  border:4px solid #dcdcdc;
+  display:inline-block;
+  color:#777777;
+  font-family:serif;
+  font-size:60px;
+  font-weight:bold;
+  padding:19px 76px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #ffffff;
+}
+
+.class-button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+  background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+  background-color:#dfdfdf;
+}
+
+.class-button:active {
+  position:relative;
+  top:1px;
+}
+
+.class-button a {
+  text-decoration: none;
+}
+
+.cell-header {
+  color: red;
+}
+
+.cell-content {
+  color: blue;
+}

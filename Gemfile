@@ -40,6 +40,10 @@ group :development, :test do
 end
 
 
+gem 'httparty'
+
+gem 'json'
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password

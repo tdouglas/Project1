@@ -1,0 +1,28 @@
+<div class="class-button">
+  <button>
+
+  </button>
+</div> <!-- class-button -->
+
+<div class="table">
+  <table class="roster">
+    <thead class="cell-header">
+      <tr>
+        <th>Roster</th>
+      </tr>
+    </thead>
+    <tbody class="cell-content">
+    <% @data['data'].each do |student| %>
+    <tr>
+      <td>
+      <%= student['data']['name']['first'] %>
+      </td>
+      <td>
+      <%= student['data']['name']['last'] %>
+      </td>
+      <% end %>
+    </tr>
+    <tbody>
+  </table>
+  </ul>
+</div>

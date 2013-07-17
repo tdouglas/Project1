@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="welcome-banner">
+    <% if @user.gender == 'female'%>
+      <%= "Welcome, Ms. #{@user.last}" %>
+    <% else %>
+      <%= "Welcome, Mr. #{@user.last}" %>
+    <% end %>
+  </div> <!-- welcome-banner -->
+  <div class="link">
+    <div class="class-button">
+      <%= link_to "#{@user.classroom}" , student_roster_path(@user) %>
+    </div> <!-- class-button -->
+  </div> <!-- link -->
+</div> <!-- container -->

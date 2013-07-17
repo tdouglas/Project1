@@ -1,12 +1,15 @@
 class CreateStudentsTable < ActiveRecord::Migration
   def up
-    create_table :students, :id => false do |t|
-      t.string :name
+    create_table :students do |t|
+      t.string :first
+      t.string :last
       t.string :gender
       t.string :race
       t.boolean :hispanic
       t.date  :dob
-      t.integer :sid
+      t.integer :grade_id
+      t.integer :teacher_id
+      t.integer :race_id
       t.timestamps
     end
   end
